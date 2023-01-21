@@ -1,3 +1,106 @@
-body{background-color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(217, 28%, 15%);
+}
+nav {
+  display: flex;
+  justify-content: space-between; /* moves the ul element to the extreem right and the logo the extreem left. */
+  align-items: center; /* This centered the links horizontally leaving little space at the top. */
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.logo img {
+  width: 80px; /* Image height will be set automatically */
+}
+.links {
+}
+.links ul {
+  list-style-type: none;
+  /* margin: 0; */
+}
+.links ul li {
+  display: inline;
+  padding: 8px;
+}
+.links ul li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+  /* END STYLE FOR NAVIGATION BAR */
 
+  /* START HERO SECTION STYLING */
+.hero-section {
+   
+}
+
+.illustration-container img{
+ max-width: 80%;
+ margin-left: 40px;
+}
+
+
+/* .illustration-img{
+  display: block;
+  max-width: 80%;
+  margin-left: 60px;
+} */
+
+/* .illustration-container {
+  max-width: 80%;
+  margin: 0 auto;
+} */
+
+.illustration-container img {
+  /* width: 100%; */
+  /* or inherit */
+}
+
+/* .hero-content h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway", sans-serif;
+  width: 300px;
+
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  text-align: center;
+} */
+
+    
+
+/* .hero-content p {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  color: hsl(0, 0%, 100%);
+  opacity: 0.7;
+  width: 290px;
+  text-align: center;
+  margin: auto;
+} */
+.hero-btn{
+    background-image: linear-gradient( to right , hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  border: none; 
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  padding-top: 15px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 15px;
+  /* since btn is an inline element, make it desplay as block so that margin auto can work. */
+display: block;
+margin: auto;
+margin: 30px auto;
 }
